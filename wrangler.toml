@@ -2,6 +2,7 @@ name = "akasha-subscriber"
 main = "build/worker/shim.mjs"
 send_metrics = false
 compatibility_date = "2024-10-01"
+routes = [{ pattern = "test.jakeciswj.uk", custom_domain = true }]
 workers_dev = false
 [build]
 command = "worker-build --release"
